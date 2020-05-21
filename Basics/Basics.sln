@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ValidationDemo", "Validatio
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControlFlowDemo", "ControlFlowDemo\ControlFlowDemo.csproj", "{37711531-E309-40AE-9578-65398AD7A6A3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControlFlow", "ControlFlow\ControlFlow.csproj", "{E9AE3D52-8F56-4F88-B778-E87A356B132C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{37711531-E309-40AE-9578-65398AD7A6A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{37711531-E309-40AE-9578-65398AD7A6A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{37711531-E309-40AE-9578-65398AD7A6A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9AE3D52-8F56-4F88-B778-E87A356B132C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9AE3D52-8F56-4F88-B778-E87A356B132C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9AE3D52-8F56-4F88-B778-E87A356B132C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9AE3D52-8F56-4F88-B778-E87A356B132C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
