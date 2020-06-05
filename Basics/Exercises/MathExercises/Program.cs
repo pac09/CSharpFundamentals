@@ -22,17 +22,29 @@ namespace MathExercises
 
 
 
-            EvenNumber even = new EvenNumber();
-            int[] evenNumber = even.GetEvenNumber(1, 100);
+            //EvenNumber even = new EvenNumber();
+            //int[] evenNumber = even.GetEvenNumber(1, 100);
 
-            int i = 0;
-            while (i < evenNumber.Length)
+            //int i = 0;
+            //while (i < evenNumber.Length)
+            //{
+            //    Console.WriteLine("Los números pares" + evenNumber[i].ToString());
+            //    i++;
+            //}
+
+            //Console.ReadKey();
+
+
+            Number number = new Number();
+            int[] numbers = number.GetNumber(1, 100, false);
+            
+            for (int i = 0; i < numbers.Length; i++)
             {
-                Console.WriteLine("Los números pares" + evenNumber[i].ToString());
-                i++;
+                Console.WriteLine("Los numero son: " + numbers[i].ToString());
             }
 
             Console.ReadKey();
+
         }
     }
 }
