@@ -10,6 +10,7 @@ namespace MathExercises
     {
         public static void Main(string[] args)
         {
+            //Ejecuta obtener Numeros Impares
             //OddNumbers od = new OddNumbers();
             //int[] oddNumbers = od.GetOddNumber(1, 100);
 
@@ -21,7 +22,7 @@ namespace MathExercises
             //Console.ReadKey();
 
 
-
+            //Ejecuta obtener Numeros Pares
             //EvenNumber even = new EvenNumber();
             //int[] evenNumber = even.GetEvenNumber(1, 100);
 
@@ -34,16 +35,29 @@ namespace MathExercises
 
             //Console.ReadKey();
 
+            //Refactorizacion para Numeros Pares e Impares
+            //Number number = new Number();
+            //int[] numbers = number.GetNumber(1, 100, false);
 
-            Number number = new Number();
-            int[] numbers = number.GetNumber(1, 100, false);
+            //for (int i = 0; i < numbers.Length; i++)
+            //{
+            //    Console.WriteLine("Los numero son: " + numbers[i].ToString());
+            //}
+
+            //Console.ReadKey();
+
             
-            for (int i = 0; i < numbers.Length; i++)
+            PrimeNumbers prime = new PrimeNumbers();
+            List<int> numbers = prime.GetPrimeNumbers(1, 100);
+
+            foreach(int number in numbers)
             {
-                Console.WriteLine("Los numero son: " + numbers[i].ToString());
+                Console.WriteLine("Los números primos son: " + number.ToString());
             }
 
             Console.ReadKey();
+
+
 
         }
     }
