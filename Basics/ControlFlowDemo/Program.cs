@@ -30,17 +30,32 @@ namespace ControlFlowDemo
             vehicles.Add(myCar);
             vehicles.Add(familyCar);
 
-            //for (int i = 0; i < vehicles.Count; i++)
-            //{
-            //    Console.WriteLine("Color: " + vehicles[i].Color + " Model: " + vehicles[i].ModelName + 
-            //        " BrandName: " + vehicles[i].BrandName + " Year: " + vehicles[i].Year);
-            //}
-
             foreach (var element in vehicles)
             {
                 Console.WriteLine("Color: " + element.Color + " Model: " + element.ModelName +
                 " BrandName: " + element.BrandName + " Year: " + element.Year);
             }
+
+            //for (int i = 0; i < vehicles.Count; i++)
+            //{
+            //    Console.WriteLine("Color: " + vehicles[i].Color + " Model: " + vehicles[i].ModelName +
+            //        " BrandName: " + vehicles[i].BrandName + " Year: " + vehicles[i].Year);
+            //}
+
+            //int j = 0;
+            //while (j < 5)
+            //{
+            //    Console.WriteLine("Yo!");
+            //    j++;
+            //}
+
+            //int k = 0;
+            //do
+            //{
+            //    Console.WriteLine("Hello, counter: " + k.ToString());
+            //    k++;
+            //} while (k < 0);
+
 
             Console.WriteLine("Press any Key to Exit");
             Console.ReadKey();

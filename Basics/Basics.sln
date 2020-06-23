@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControlFlowDemo", "ControlF
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControlFlow", "ControlFlow\ControlFlow.csproj", "{E9AE3D52-8F56-4F88-B778-E87A356B132C}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Exercises", "Exercises", "{C8EB13DD-450C-4E4B-902B-2EA50B3E383A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MathExercises", "Exercises\MathExercises\MathExercises.csproj", "{635FD129-04C8-4972-83A4-E13F9091CF71}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,9 +37,16 @@ Global
 		{E9AE3D52-8F56-4F88-B778-E87A356B132C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E9AE3D52-8F56-4F88-B778-E87A356B132C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E9AE3D52-8F56-4F88-B778-E87A356B132C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{635FD129-04C8-4972-83A4-E13F9091CF71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{635FD129-04C8-4972-83A4-E13F9091CF71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{635FD129-04C8-4972-83A4-E13F9091CF71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{635FD129-04C8-4972-83A4-E13F9091CF71}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{635FD129-04C8-4972-83A4-E13F9091CF71} = {C8EB13DD-450C-4E4B-902B-2EA50B3E383A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {32F06BB3-0419-4157-A26F-6FC704E2E82A}
