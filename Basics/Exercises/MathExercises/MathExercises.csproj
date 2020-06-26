@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Logic\ClientInfoMatrix.cs" />
     <Compile Include="Logic\EvenNumber.cs" />
     <Compile Include="Logic\Number.cs" />
     <Compile Include="Logic\OddNumbers.cs" />
